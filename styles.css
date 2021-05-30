@@ -1,0 +1,106 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0.5rem 0.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.14rem;
+}
+
+nav img {
+    height: 2.27rem;
+    margin: 0.45rem;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 0 0 1rem;
+    text-decoration: underline;
+    /*background-color: cadetblue;*/
+}
+
+#mission {
+    /*background image size and flex*/
+    background-image: url('images/img-mission-background.jpg');
+    height: 31.82rem;
+    width: 100%;
+    background-size: cover;    
+    /*Vertically centred heading and text*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mission h2, h4 {
+    background-color: black;
+    width: 100%;
+    padding: 0.3rem 0;
+}
+
+h2 {
+    margin-top: 0.5rem;
+}
+
+h4 {
+    margin-bottom: 0.5rem;
+}
+
+#featuredTeas img {
+    height: 200px;
+    width: 300px;
+}
+
+#featuredTeas .imageTextContainer {
+    display: inline-block;
+}
+
+#locations {
+    /* Background image */
+    background-image: url('images/img-locations-background.jpg');
+    height: 22.73rem;
+    width: 100%;
+    background-size: cover;
+    margin-top: 2rem;
+    /* TextBoxes */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.locationTextContainer {
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+    width: 22%;
+    margin: 1rem 0;
+    background-color: black;
+}
+
+.locationTextContainer li, h3 {
+    list-style-type: none;
+    line-height: 1rem;
+    padding: 1rem 0;
+    font-size: 1.4vw;
+}
+
+#contact {
+    height: 7.1rem;
+}
+
+footer {
+    text-align: left;
+    padding: 0.5rem;
+}
